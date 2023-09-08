@@ -12,7 +12,14 @@ header {
     background-color: #fff;
     z-index: 1000;
 }
-    
+
+.headerDescuento:hover .descuentoLink {
+    background-color: #fff;
+    color: #000;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-out;
+}
+
 .descuentoLink span:nth-child(1) {
     width: 100%;
     height: 2px;
