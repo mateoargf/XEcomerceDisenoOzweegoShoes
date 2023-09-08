@@ -13,12 +13,15 @@ header {
     z-index: 1000;
 }
 
-.headerDescuento:hover .descuentoLink {
+.headerDescuento:hover .descuentoLink,
+.headerDescuento:hover {
     background-color: #fff;
     color: #000;
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
     transition-timing-function: ease-out;
 }
+
+
 
 .descuentoLink span:nth-child(1) {
     width: 100%;
@@ -63,7 +66,6 @@ header {
 .descuentoLink:hover span:nth-child(4) {
     top: 0;
 }
-
 
 .containerNav a::before {
     content: "";
@@ -161,8 +163,8 @@ input::placeholder,
 
 .descuentoLink span {
     position: absolute;
-    background-color: #CFCFCF;
-    transition: all 0.5s ease-in;
+    background-color: #000;
+    transition: all 1s ease-out;
 }
 
 .descuentoLink i{
