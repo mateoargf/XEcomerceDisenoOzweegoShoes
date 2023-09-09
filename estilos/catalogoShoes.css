@@ -32,12 +32,13 @@
     display: flex;
     margin-top: 3rem;
     height: 100%;
-    background-color: rebeccapurple;
+    justify-content: space-between;
 }
 
 .catalogoUno {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .catalogoUno img {
@@ -45,4 +46,19 @@
     width: auto;
     max-width: 100%;
     background-color: red;
+}
+
+.catalogoDos {
+    height: 100%;
+    width: 55%;
+    background-color: blue;
+}
+
+.catalogoTres {
+    height: 100%;
+    width: 35%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
