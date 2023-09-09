@@ -28,6 +28,19 @@
     background-color: red;
 }
 
+.descripcionRate p:nth-child(1) {
+    font-weight: 600;
+}
+
+.descripcionRate p:nth-child(1) {
+    font-weight: 700;
+}
+
+.precio h4:nth-child(1) {
+    color: #c4c4c4;
+    text-decoration: line-through;
+}
+
 .catalogoShoes {
     display: flex;
     margin-top: 3rem;
@@ -61,4 +74,63 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* estas alturas son provisorias. luego las mando a sus divs */
+.catalogoTres div:nth-child(2) {
+    height: 15%;
+}
+
+.catalogoTres div:nth-child(3) {
+    height: 25%;
+}
+
+.catalogoTres div:nth-child(4) {
+    height: 25%;
+}
+
+.catalogoTres div:nth-child(5) {
+    height: 10%;
+}
+
+.tresZonaUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18%;
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    height: 30%;
+}
+
+.descripcionRate {
+    display: flex;
+    gap: 0.3rem;
+    align-items: top;
+    height: 100%;
+    width: 30%;
+    font-size: 0.8rem;
+}
+
+.votacionRate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.tresZonaUno h2 {
+    letter-spacing: 0.1rem;
+}
+
+.precio {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: #E72C39;
 }
