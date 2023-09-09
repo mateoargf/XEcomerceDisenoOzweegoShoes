@@ -23,7 +23,8 @@
     transition: all 0.6s ease-in;
 }
 
-.guiaTitulo a:hover {
+.guiaTitulo a:hover,
+.guiaTitulo a:focus {
     color: #000;
 }
 
