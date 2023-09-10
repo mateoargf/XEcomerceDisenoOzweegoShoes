@@ -36,7 +36,7 @@
     font-weight: 700;
 }
 
-.precio h4:nth-child(1) {
+.precio h3:nth-child(1) {
     color: #c4c4c4;
     text-decoration: line-through;
 }
@@ -131,6 +131,6 @@
     display: flex;
     text-align: center;
     gap: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #E72C39;
 }
