@@ -45,6 +45,10 @@
     text-decoration: line-through;
 }
 
+.colorShoe:nth-child(4) {
+    border: none;
+}
+
 .catalogoShoes {
     display: flex;
     margin-top: 3rem;
@@ -74,17 +78,12 @@
 .catalogoTres {
     height: 100%;
     width: 35%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 /* estas alturas son provisorias. luego las mando a sus divs */
-.catalogoTres div:nth-child(2) {
-    height: 15%;
-}
-
 .catalogoTres div:nth-child(3) {
     height: 25%;
 }
@@ -144,5 +143,34 @@
     gap: 1rem;
     font-size: 1.3rem;
     color: #E72C39;
+}
+
+.catalogoColors {
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.coloresShoes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colorShoe {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.3rem;
+    background-color: blue;
+    border: 2px solid #A5A5A5;
+}
+
+.catalogoSizes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
