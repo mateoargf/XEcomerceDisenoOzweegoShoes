@@ -49,6 +49,24 @@
     border: none;
 }
 
+.sizesDiv a:nth-child(6),
+.sizesDiv a:nth-child(20) {
+    color: #FBDF77;
+    border-color: #FBDF77;
+}
+
+
+.sizesDiv a:nth-child(9),
+.sizesDiv a:nth-child(12) {
+    color: #c5c5c5;
+    border-color: #c5c5c5;
+}
+
+.sizesDiv a:nth-child(17) {
+    background-color: #000;
+    color: #fff;
+}
+
 .catalogoShoes {
     display: flex;
     margin-top: 3rem;
@@ -177,7 +195,7 @@
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 1fr;
     align-content: space-between;
-    grid-row-gap: 0.5rem; 
+    grid-row-gap: 0.3rem; 
 }
 
 .sizesDiv a {
