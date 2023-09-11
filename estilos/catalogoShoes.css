@@ -67,6 +67,12 @@
     color: #fff;
 }
 
+.catalogoAgregar button:nth-child(1) {
+    background-color: #000;
+    color: #fff;
+}
+
+
 .catalogoShoes {
     display: flex;
     margin-top: 3rem;
@@ -102,10 +108,6 @@
 }
 
 /* estas alturas son provisorias. luego las mando a sus divs */
-.catalogoTres div:nth-child(4) {
-    height: 25%;
-}
-
 .catalogoTres div:nth-child(5) {
     height: 10%;
 }
@@ -195,7 +197,7 @@
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 1fr;
     align-content: space-between;
-    grid-row-gap: 0.3rem; 
+    grid-row-gap: 0.3rem;
 }
 
 .sizesDiv a {
@@ -208,4 +210,41 @@
     width: 4.2rem;
     border-radius: 0.3rem;
     border: 2px solid #A5A5A5;
+}
+
+.catalogoInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 28%;
+    border: 1px solid green;
+}
+
+.catalogoInfo a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.catalogoInfo a i {
+    font-size: 1.9rem;
+}
+
+.catalogoAgregar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.catalogoAgregar button {
+    padding: 0.5rem 1rem;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    border: 2px solid #000;
+    cursor: pointer;
+    box-shadow: none;
 }
