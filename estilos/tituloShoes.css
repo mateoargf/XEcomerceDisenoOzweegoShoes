@@ -16,10 +16,10 @@
 .guiaTitulo a:focus::before {
     transform-origin: left;
     transform: scaleX(1);
-    
+
 }
 
-.guiaTitulo a:hover::before  {
+.guiaTitulo a:hover::before {
     transition: all 0.6s ease-in;
 }
 
@@ -38,7 +38,7 @@
     align-items: center;
 }
 
-.guiaTitulo {    
+.guiaTitulo {
     width: fit-content;
     display: flex;
     flex-direction: row;
@@ -62,24 +62,44 @@
     font-size: 1.1rem;
 }
 
-@media screen and (max-width:767px)  {
-    .tituloShoes {
+@media screen and (max-width:767px) {
+    .guiaTitulo a:nth-child(4) {
+        display: none;
+    }
+
+    .guiaTitulo a:nth-child(3) i {
+        display: none;
+    }
+
+    .guiaTitulo a:nth-child(3) {
+        color: #000;
+    }
+
+    .tituloShoes h3 {
         display: none;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
-    .tituloShoes {
+    .guiaTitulo a:nth-child(4) {
+        display: none;
+    }
+
+    .guiaTitulo a:nth-child(3) i {
+        display: none;
+    }
+
+    .guiaTitulo a:nth-child(3) {
+        color: #000;
+    }
+
+    .tituloShoes h3 {
         display: none;
     }
 }
 
 
-@media screen and (min-width:1024px) and (max-width:1440px) {
-    
-}
+@media screen and (min-width:1024px) and (max-width:1440px) {}
 
 
-@media screen and (min-width:1441px) and (max-width:1920px) {
-   
-}
+@media screen and (min-width:1441px) and (max-width:1920px) {}
