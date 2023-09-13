@@ -85,6 +85,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .tresZonaUno {
@@ -224,17 +225,21 @@
 
 @media screen and (max-width:767px) {
     .catalogoColors a:nth-child(n) {
-        width: 3rem;
-        height: 3rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .sizesDiv a:nth-child(n) {
+        height: 2rem;
+        width: 3.5rem;
+    }
+
+    .ocultarPhone {
+        display: none;
     }
 
     .catalogoShoes {
         flex-direction: column;
-        border: 1px solid red;
-    }
-
-    .catalogoUno {
-        display: none;
     }
 
     .catalogoDos,
@@ -247,12 +252,60 @@
         width: fit-content;
     }
 
+    .catalogoAgregar {
+        flex-direction: column;
+        align-items: center;
+        height: 10rem;
+    }
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .catalogoColors a:nth-child(n) {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .ocultarTablet {
+        display: none;
+    }
+
+    .catalogoShoes {
+        flex-direction: column;
+    }
+
+    .catalogoDos,
+    .catalogoTres {
+        width: 100%;
+    }
+
+    .catalogoColors {
+        gap: 1rem;
+    }
+
+    .catalogoSizes {
+        height: 40%;
+    }
+
+    .descripcionRate,
+    .votacionRate {
+        width: fit-content;
+    }
+
+    .catalogoAgregar {
+        flex-direction: column;
+        align-items: center;
+        height: 10rem;  
+    }
+
+    .catalogoAgregar button {
+        width: 30%;
+        height: 3rem;
+    }
+}
 
 
-@media screen and (min-width:1024px) and (max-width:1440px) {}
+@media screen and (min-width:1024px) and (max-width:1439px) {
+}
 
 
-@media screen and (min-width:1441px) and (max-width:1920px) {}
+@media screen and (min-width:1440px) and (max-width:1920px) {}
