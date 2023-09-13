@@ -163,7 +163,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 60%;
+    height: 17rem;
 }
 
 .sizesDiv {
@@ -248,6 +248,10 @@
         width: 100%;
     }
 
+    .catalogoSizes {
+        height: 20rem;
+    }
+
     .descripcionRate,
     .votacionRate {
         width: fit-content;
@@ -256,7 +260,7 @@
     .catalogoAgregar {
         flex-direction: column;
         align-items: center;
-        height: 10rem;
+        height: 8rem;
     }
 }
 
@@ -264,6 +268,11 @@
     .catalogoColors a:nth-child(n) {
         width: 6rem;
         height: 6rem;
+    }
+
+    .sizesDiv a:nth-child(n) {
+        height: 3rem;
+        width: 6rem;
     }
 
     .ocultarTablet {
@@ -284,7 +293,8 @@
     }
 
     .catalogoSizes {
-        border: 1px solid red;
+        margin: 3rem 0 1rem 0;
+        height: 30rem;
     }
 
     .descripcionRate,
@@ -296,11 +306,13 @@
         flex-direction: column;
         align-items: center;
         height: 10rem;
+        gap: 1rem;
+        margin-top: 3rem;
     }
 
     .catalogoAgregar button {
         width: 30%;
-        height: 3rem;
+        height: 2.7rem;
     }
 }
 
