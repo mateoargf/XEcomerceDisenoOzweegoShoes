@@ -172,6 +172,7 @@
     grid-template-rows: 1fr;
     align-content: space-between;
     grid-row-gap: 0.3rem;
+    z-index: 1;
 }
 
 .sizesDiv a {
@@ -283,7 +284,7 @@
     }
 
     .catalogoSizes {
-        height: 40%;
+        border: 1px solid red;
     }
 
     .descripcionRate,
@@ -294,7 +295,7 @@
     .catalogoAgregar {
         flex-direction: column;
         align-items: center;
-        height: 10rem;  
+        height: 10rem;
     }
 
     .catalogoAgregar button {
@@ -304,8 +305,7 @@
 }
 
 
-@media screen and (min-width:1024px) and (max-width:1439px) {
-}
+@media screen and (min-width:1024px) and (max-width:1439px) {}
 
 
 @media screen and (min-width:1440px) and (max-width:1920px) {}
