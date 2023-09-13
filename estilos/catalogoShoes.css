@@ -1,27 +1,7 @@
-.catalogoUno img:nth-child(1) {
-    height: 5rem;
-    width: 5rem;
-    background-color: red;
-}
-
-.catalogoUno img:nth-child(2) {
-    height: 5rem;
-    width: 5rem;
-    background-color: red;
-}
-
-.catalogoUno img:nth-child(3) {
-    height: 5rem;
-    width: 5rem;
-    background-color: red;
-}
-
-.catalogoUno img:nth-child(4) {
-    height: 5rem;
-    width: 5rem;
-    background-color: red;
-}
-
+.catalogoUno img:nth-child(1),
+.catalogoUno img:nth-child(2),
+.catalogoUno img:nth-child(3),
+.catalogoUno img:nth-child(4),
 .catalogoUno img:nth-child(5) {
     height: 5rem;
     width: 5rem;
@@ -161,7 +141,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid yellow;
 }
 
 .coloresShoes {
@@ -184,7 +163,6 @@
     flex-direction: column;
     justify-content: space-between;
     height: 60%;
-    border: 1px solid red;
 }
 
 .sizesDiv {
@@ -212,7 +190,6 @@
     flex-direction: column;
     justify-content: space-between;
     height: 28%;
-    border: 1px solid green;
 }
 
 .catalogoInfo a {
@@ -243,3 +220,39 @@
     cursor: pointer;
     box-shadow: none;
 }
+
+
+@media screen and (max-width:767px) {
+    .catalogoColors a:nth-child(n) {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .catalogoShoes {
+        flex-direction: column;
+        border: 1px solid red;
+    }
+
+    .catalogoUno {
+        display: none;
+    }
+
+    .catalogoDos,
+    .catalogoTres {
+        width: 100%;
+    }
+
+    .descripcionRate,
+    .votacionRate {
+        width: fit-content;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {}
+
+
+@media screen and (min-width:1024px) and (max-width:1440px) {}
+
+
+@media screen and (min-width:1441px) and (max-width:1920px) {}
