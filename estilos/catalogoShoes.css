@@ -6,6 +6,7 @@
     height: 5rem;
     width: 5rem;
     background-color: red;
+    cursor: pointer;
 }
 
 .descripcionRate p:nth-child(1) {
@@ -20,9 +21,27 @@
     color: #c4c4c4;
 }
 
+.estrellas i:hover {
+    color:  #000;
+}
+
 .precio h3:nth-child(1) {
     color: #c4c4c4;
     text-decoration: line-through;
+}
+
+.coloresShoes:hover .colorShoe,
+.sizesDiv:hover a {
+    opacity: 0.5;
+}
+
+.coloresShoes:hover .colorShoe:hover,
+.sizesDiv:hover a:hover {
+    opacity: 1;
+}
+
+.colorShoe:focus {
+    border: none;
 }
 
 .colorShoe:nth-child(4) {
@@ -30,19 +49,25 @@
 }
 
 .sizesDiv a:nth-child(6),
-.sizesDiv a:nth-child(20) {
+.sizesDiv a:nth-child(20),
+.sizesDiv a:nth-child(6):focus,
+.sizesDiv a:nth-child(20):focus {
     color: #FBDF77;
     border-color: #FBDF77;
+    background-color: transparent;
 }
 
 
 .sizesDiv a:nth-child(9),
-.sizesDiv a:nth-child(12) {
-    color: #c5c5c5;
-    border-color: #c5c5c5;
+.sizesDiv a:nth-child(12),
+.sizesDiv a:nth-child(9):focus,
+.sizesDiv a:nth-child(12):focus {
+    color: #adadad;
+    border-color: #adadad;
+    background-color: transparent;
 }
 
-.sizesDiv a:nth-child(17) {
+.sizesDiv a:focus {
     background-color: #000;
     color: #fff;
 }
@@ -77,6 +102,7 @@
     height: 100%;
     width: 55%;
     background-color: blue;
+    cursor: pointer;
 }
 
 .catalogoTres {
@@ -115,6 +141,7 @@
     display: flex;
     justify-content: space-between;
     width: 30%;
+    cursor: pointer;
 }
 
 .estrellas {
@@ -123,6 +150,14 @@
     font-size: 0.8rem;
     height: fit-content;
     color: #02C715;
+}
+
+.estrellas i,
+.coloresShoes,
+.colorShoe,
+.sizesDiv,
+.sizesDiv a {
+    transition: 0.4s all ease-in-out;
 }
 
 .tresZonaUno h2 {
@@ -155,8 +190,8 @@
     height: 4rem;
     width: 4rem;
     border-radius: 0.3rem;
-    background-color: #000;
     border: 2px solid #A5A5A5;
+    cursor: pointer;
 }
 
 .catalogoSizes {
@@ -199,6 +234,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    cursor: pointer;
 }
 
 .catalogoInfo a i {
