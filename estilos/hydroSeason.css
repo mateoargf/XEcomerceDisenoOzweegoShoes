@@ -1,0 +1,10 @@
+.hydroSeason {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 85vw;
+     margin: 0 auto;
+     margin-top: 1.5rem;
+     padding-bottom: 1rem;
+     border: 2px solid red;
+}
