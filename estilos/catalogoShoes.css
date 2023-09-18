@@ -22,7 +22,7 @@
 }
 
 .estrellas i:hover {
-    color:  #000;
+    color: #000;
 }
 
 .precio h3:nth-child(1) {
@@ -105,7 +105,6 @@
 
 .catalogoShoes {
     display: flex;
-    margin-top: 3rem;
     height: 100%;
     justify-content: space-between;
 }
@@ -202,6 +201,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .coloresShoes {
@@ -223,7 +223,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 17rem;
+    min-height: 12rem;
+    position: relative;
 }
 
 .sizesDiv {
@@ -251,7 +252,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 28%;
+    min-height: 8rem;
 }
 
 .catalogoInfo a {
@@ -274,6 +275,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    min-height: fit-content;
 }
 
 .catalogoAgregar button {
@@ -311,10 +313,7 @@
     .catalogoDos,
     .catalogoTres {
         width: 100%;
-    }
-
-    .catalogoSizes {
-        height: 20rem;
+        height: 50vh;
     }
 
     .descripcionRate,
@@ -322,10 +321,14 @@
         width: fit-content;
     }
 
+    .catalogoInfo {
+        min-height: 10rem;
+    }
+
     .catalogoAgregar {
         flex-direction: column;
         align-items: center;
-        height: 8rem;
+        gap: 1rem;
     }
 }
 
@@ -353,13 +356,12 @@
         width: 100%;
     }
 
-    .catalogoColors {
-        gap: 1rem;
+    .catalogoDos {
+        height: 50vh;
     }
 
-    .catalogoSizes {
-        margin: 3rem 0 1rem 0;
-        height: 30rem;
+    .catalogoColors {
+        gap: 1rem;
     }
 
     .descripcionRate,
@@ -370,9 +372,7 @@
     .catalogoAgregar {
         flex-direction: column;
         align-items: center;
-        height: 10rem;
         gap: 1rem;
-        margin-top: 3rem;
     }
 
     .catalogoAgregar button {
