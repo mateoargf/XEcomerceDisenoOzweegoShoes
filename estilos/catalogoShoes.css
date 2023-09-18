@@ -222,7 +222,7 @@
 .catalogoSizes {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 1rem;
     min-height: 12rem;
     position: relative;
 }
