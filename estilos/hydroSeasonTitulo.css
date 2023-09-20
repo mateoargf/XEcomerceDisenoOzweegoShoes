@@ -1,6 +1,7 @@
 .hydroSeason h2,
 .hydroSeason i {
      text-align: center;
+     cursor: pointer;
 }
 
 .hydroSeason i {
@@ -9,14 +10,12 @@
 }
 
 
-@media screen and (max-width:767px) {
-    
- }
- 
- @media screen and (min-width:768px) and (max-width:1023px) {}
- 
- 
- @media screen and (min-width:1024px) and (max-width:1439px) {}
- 
- 
- @media screen and (min-width:1440px) and (max-width:1920px) {}
+@media screen and (max-width:767px) {}
+
+@media screen and (min-width:768px) and (max-width:1023px) {}
+
+
+@media screen and (min-width:1024px) and (max-width:1439px) {}
+
+
+@media screen and (min-width:1440px) and (max-width:1920px) {}
