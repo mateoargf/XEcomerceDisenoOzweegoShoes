@@ -50,14 +50,14 @@
 
 .sizesDiv a:nth-child(6),
 .sizesDiv a:nth-child(20) {
-    color: #FBDF77;
-    border-color: #FBDF77;
+    color: #ceb044;
+    border-color: #ceb044;
     background-color: transparent;
 }
 
 .sizesDiv a:nth-child(6):focus,
 .sizesDiv a:nth-child(20):focus {
-    background-color: #FBDF77;
+    background-color: #ceb044;
     color: #fff;
 }
 

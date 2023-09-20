@@ -1,0 +1,12 @@
+.completeLookCards {
+     width: 100%;
+     min-height: 100%;
+     display: grid;
+     grid-template-columns: 22% 22% 22% 22%;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr;
+     justify-content: space-between;
+     z-index: 1;
+     gap: 1rem;
+     border: 1px solid lime;
+}
