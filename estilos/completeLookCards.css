@@ -9,4 +9,5 @@
      z-index: 1;
      gap: 1rem;
      border: 1px solid lime;
+     overflow: hidden;
 }
