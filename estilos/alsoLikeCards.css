@@ -1,10 +1,8 @@
-.completeLookCardUno:hover img,
-.completeLookCardDos:hover img,
-.completeLookCardTres:hover img,
-.completeLookCardCuatro:hover img {
+.alsoLikeCard:hover img {
      opacity: 0.7;
 }
-.completeLookCards {
+
+.alsoLikeCards {
      width: 100%;
      min-height: 100%;
      display: grid;
@@ -15,30 +13,24 @@
      gap: 1rem;
 }
 
-.completeLookCardUno,
-.completeLookCardDos,
-.completeLookCardTres,
-.completeLookCardCuatro {
+.alsoLikeCard {
      cursor: pointer;
 }
 
-.completeLookCardUno img,
-.completeLookCardDos img,
-.completeLookCardTres img,
-.completeLookCardCuatro img {
-     transition: all 0.4s ease-in-out;
-     border: 1.5px solid #a5a5a5be;     
+.alsoLikeCard img {
+     border: 1.5px solid #a5a5a5be;
      background-color: #EAEFF1;
      border-radius: 0.2rem;
+     transition: all 0.4s ease-in-out;
 }
 
-.completeLookCards img {
+.alsoLikeCards img {
      max-width: 100%;
      height: 20rem;
      object-fit: cover;
 }
 
-.cLCardInfo {
+.alsoLikeInfo {
      display: flex;
      flex-direction: column;
      justify-content: space-between;
@@ -49,15 +41,15 @@
 
 
 @media screen and (max-width:767px) {
-     .completeLookCards {
+     .alsoLikeCards {
           width: 87%;
-          grid-template-columns: repeat(1,1fr);
+          grid-template-columns: repeat(1, 1fr);
      }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
-     .completeLookCards {
-          grid-template-columns: repeat(2,1fr);
+     .alsoLikeCards {
+          grid-template-columns: repeat(2, 1fr);
      }
 }
 
