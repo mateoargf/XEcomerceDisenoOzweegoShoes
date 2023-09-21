@@ -1,11 +1,9 @@
 .hydroSeasonImgs:hover .hydroSUno:hover,
 .hydroSeasonImgs:hover .hydroSDos:hover {
+     border-color:  #a5a5a5;
      opacity: 0.9;
 }
 
-.hydroSDes:hover {
-     color: #a5a5a5;
-}
 
 .hydroSeasonImgs {
      width: 100%;
@@ -28,6 +26,7 @@
      padding: 1rem;
      background: radial-gradient(circle, #F95D68 30%, #CB1C31 70%, #84000B 90%);
      box-shadow: inset 0 -3rem 10rem #00000094;
+     border: 2px solid transparent; 
      cursor: pointer;
      position: relative;
      overflow: hidden;
