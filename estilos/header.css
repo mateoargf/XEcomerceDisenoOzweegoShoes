@@ -85,12 +85,12 @@ header {
 .containerNav a:focus::before {
     transform-origin: left;
     transform: scaleX(1);
-    
+
 }
 
 .search:hover,
 .carrito:hover,
-.menuIcon:hover {    
+.menuIcon:hover {
     border: 2px solid #4a4a4a7c;
 }
 
@@ -134,7 +134,7 @@ input::placeholder,
 .lupa,
 .carrito,
 .menuIcon,
-.containerNav a:hover::before  {
+.containerNav a:hover::before {
     transition: all 0.6s ease-in;
 }
 
@@ -167,11 +167,11 @@ input::placeholder,
     transition: all 1s ease-out;
 }
 
-.descuentoLink i{
+.descuentoLink i {
     font-size: 1.5rem;
 }
 
-.headerDiv {    
+.headerDiv {
     display: flex;
     justify-content: space-between;
     width: 85vw;
