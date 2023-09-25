@@ -1,0 +1,134 @@
+footer {
+    background-color:none;
+    color: black;
+    padding: 20px 0px;
+    width: 80vw;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap; /* Permitir envolver elementos en pantallas pequeñas */
+  justify-content: center;
+  align-items: center;
+  padding:1vw 0vw;
+}
+
+.footer-row:first-child {
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc; /* Línea que divide la primera fila de la segunda fila */
+}
+.footer-row:nth-child(2) {
+
+  border-bottom: 1px solid #ccc; /* Línea que divide la primera fila de la segunda fila */
+}
+
+.left, .right{
+  display: flex;
+  align-items: center;
+}
+
+.center-text {
+  display: none; 
+
+}
+
+.left img {
+  width: 40px; /* Ocupa el ancho del <p> */
+  height: auto; /* Mantiene la relación de aspecto original */
+  margin: 0 10px;
+}
+
+.left span, .right span {
+  font-weight: bold;
+}
+
+.right {
+  justify-content: flex-end;
+}
+.right img {
+  height: 30px;
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+ul {
+  list-style: none;
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); /* Dividir en 2 columnas de igual ancho */
+  gap: 25px; /* Espacio entre los elementos */
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+ul li {
+  margin: 10px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.link-list li {
+  display: inline;
+  margin: 10px;
+}
+
+.link-list a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: normal;
+  transition: font-weight 0.3s ease;
+}
+
+.link-list a:hover {
+  font-weight: bold;
+}
+
+
+
+.arrow-link img {
+  transition: transform 0.3s; 
+}
+
+.arrow-link:hover img {
+  transform: scale(1.2);
+}
+@media screen and (min-width: 768px) {
+  ul {
+    grid-template-columns: repeat(5, 1fr); /* Dividir en 4 columnas de igual ancho */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  ul {
+    grid-template-columns: repeat(5, 1fr); /* Dividir en 6 columnas de igual ancho */
+  }
+  .center-text {
+    display: block; /* Mostrar el texto en dispositivos con ancho mayor o igual a 1024px */
+    font-size: 16px;
+  
+    text-align: center; /* Centrar el texto */
+  }
+  .footer-row:nth-child(3) {
+    display:none
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  ul {
+    grid-template-columns: repeat(10, 1fr); /* Dividir en 8 columnas de igual ancho */
+  }
+}
