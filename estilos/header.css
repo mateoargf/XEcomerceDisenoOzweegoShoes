@@ -106,24 +106,24 @@ header {
     font-family: 'Syne', sans-serif;
 }
 
+.search:focus-within,
+.carrito:focus-within,
+.menuIcon:focus-within {
+    color: #080808;
+    border-color: #080808;
+    transition: all 0.3s ease-in-out;
+}
 
+.search:focus-within .lupa,
+.search:focus-within input::placeholder,
+.carrito:focus-within i,
+.menuIcon:focus-within i {
+    color: #080808;
+    transition: all 0.3s ease-in-out;
+}
 
-.search:active,
-.search:active .lupa,
-.search:active input::placeholder,
-.carrito:active,
-.carrito:active i,
-.menuIcon:active,
-.menuIcon:active i,
-.search:focus,
-.search:focus .lupa,
-.search:focus input::placeholder,
-.carrito:focus,
-.carrito:focus i,
-.menuIcon:focus,
-.menuIcon:focus i {
-    color: #3f3f3f;
-    border-color: #3f3f3f;
+.search:focus-within input::placeholder {
+    
     transition: all 0.3s ease-in-out;
 }
 
@@ -219,6 +219,7 @@ input::placeholder,
 }
 
 .search {
+    text-decoration: none;
     background-color: #FEFEFE;
     border: 2px solid #4A4A4A;
     border-radius: 5px;
@@ -253,6 +254,7 @@ input::placeholder,
 
 .carrito,
 .menuIcon {
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
